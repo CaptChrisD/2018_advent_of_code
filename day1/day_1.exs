@@ -42,8 +42,6 @@ ExUnit.start()
 defmodule Day1Test do
   use ExUnit.Case
 
-  import Day1.Part1
-
   test "part 1 - regular cases" do
     assert Day1.Part1.process(["1"]) == 1
     assert Day1.Part1.process(["1","2"]) == 3
